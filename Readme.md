@@ -48,6 +48,8 @@ CubicMultithreadedSpline spline(x, y);
 Pixel p_t = spline(0.5);
 ```
 
+![Example Spline](Spline.png)
+
 ## API Reference
 The primary class provided by this library is `CubicMultithreadedSpline`.
 
