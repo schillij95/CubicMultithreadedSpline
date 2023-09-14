@@ -95,7 +95,7 @@ int main() {
     keywords["color"] = "red";
     std::map<std::string, std::string> keywords_equally;
     keywords_equally["color"] = "green";
-    plt::title("Double Spline evaluated at t");
+    plt::title("Spline evaluated at t");
     plt::plot(x_double_t_values, y_double_t_values);  // Replace these vectors with what you've computed
     plt::scatter(std::vector<double>(x_double_t_values_equally.data(), x_double_t_values_equally.data() + x_double_t_values_equally.size()),
                  std::vector<double>(y_double_t_values_equally.data(), y_double_t_values_equally.data() + y_double_t_values_equally.size()),
